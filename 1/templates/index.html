@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Flask Boilerplate{% endblock title %}
+{% block head %}
+    {{ super() }}
+{% endblock head %}
+
+{% block jslib %}
+    <script type="text/javascript">
+      $(document).ready({
+      });
+    </script>
+    <script src="/static/js/app.js"></script>
+{% endblock jslib %}
+
+{% block header %}
+    {{ super() }}
+{% endblock header %}
+
+{% block content %}
+    <div class="container">
+      <h1 id="title"></h1>
+      <p>Use this document as a way to quick start any new project.<br> All you get is this message and a barebones HTML document.</p>
+    </div> <!-- /container -->
+{% endblock content %}
+
+{% block footer %}
+    {{ super() }}
+{% endblock footer %}
