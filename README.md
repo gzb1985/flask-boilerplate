@@ -10,6 +10,6 @@
 ## Usage
 
 1. Checkout the Git repository
-1. pip install -r requirements.txt
+1. `pip install -r requirements.txt`
 1. Run `python app.py`
 
