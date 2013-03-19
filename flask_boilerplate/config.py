@@ -5,8 +5,7 @@
 class Config(object):
     SITE_NAME = 'flask_boilerplate'
     SECRET_KEY = "your app secret key"
-    MEMCACHED_SERVERS = ['localhost:11211']
-    SYS_ADMINS = ['gzb1985@gmail.com']
+    SYS_ADMINS = ['yourname@domain.com']
 
 class ProductionConfig(Config):
     DEBUG = False
